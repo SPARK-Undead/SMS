@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-07 06:40:45.229364",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_information_section",
+  "name1",
+  "age",
+  "class",
+  "column_break_vbho",
+  "address",
+  "parent_contact",
+  "enrolment_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_information_section",
+   "fieldtype": "Section Break",
+   "label": "Student Information"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Data",
+   "label": "Class"
+  },
+  {
+   "fieldname": "column_break_vbho",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "parent_contact",
+   "fieldtype": "Data",
+   "label": "Parent Contact"
+  },
+  {
+   "fieldname": "enrolment_date",
+   "fieldtype": "Date",
+   "label": "Enrolment Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-07 07:52:26.679442",
+ "modified_by": "Administrator",
+ "module": "School Management System",
+ "name": "Student",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
