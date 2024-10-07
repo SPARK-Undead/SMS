@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-07 14:37:07.302588",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "level_of_education",
+  "did_you_complete_the_teacher_training_college",
+  "do_you_have_any_prior_experience_teaching",
+  "teacher_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "level_of_education",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Level Of Education"
+  },
+  {
+   "fieldname": "did_you_complete_the_teacher_training_college",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Did you complete the Teacher Training College?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "do_you_have_any_prior_experience_teaching",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Do you have any prior experience teaching?"
+  },
+  {
+   "fieldname": "teacher_id",
+   "fieldtype": "Link",
+   "label": "Teacher ID",
+   "options": "Teachers Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-07 14:51:20.179994",
+ "modified_by": "Administrator",
+ "module": "School Management System",
+ "name": "Teachers Academic Qualifications",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

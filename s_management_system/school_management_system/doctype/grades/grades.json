@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "student_id",
+  "student_name",
   "academic_performance",
   "total_marks",
   "percentage",
@@ -18,7 +19,8 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Student ID",
-   "options": "Student"
+   "options": "Student",
+   "read_only": 1
   },
   {
    "fieldname": "academic_performance",
@@ -29,23 +31,32 @@
   {
    "fieldname": "total_marks",
    "fieldtype": "Float",
-   "label": "Total Marks"
+   "label": "Total Marks",
+   "read_only": 1
   },
   {
    "fieldname": "final_grade",
    "fieldtype": "Data",
-   "label": "Final Grade"
+   "label": "Final Grade",
+   "read_only": 1
   },
   {
    "default": "%",
    "fieldname": "percentage",
    "fieldtype": "Data",
-   "label": "Percentage"
+   "label": "Percentage",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "student_id.name1",
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "Student Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 12:41:27.093365",
+ "modified": "2024-10-07 13:48:43.058772",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Grades",

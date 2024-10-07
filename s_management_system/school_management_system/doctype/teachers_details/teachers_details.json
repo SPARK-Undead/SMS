@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:TD{YYYY}-{#}",
+ "creation": "2024-10-07 14:34:12.833987",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "profile_photo",
+  "teacher_full_name",
+  "contact",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "profile_photo",
+   "fieldtype": "Attach Image",
+   "label": "Profile Photo"
+  },
+  {
+   "fieldname": "teacher_full_name",
+   "fieldtype": "Data",
+   "label": "Teacher Full Name"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Data",
+   "label": "Contact"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Teachers Academic Qualifications",
+   "link_fieldname": "teacher_id"
+  }
+ ],
+ "modified": "2024-10-07 14:51:42.993135",
+ "modified_by": "Administrator",
+ "module": "School Management System",
+ "name": "Teachers Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

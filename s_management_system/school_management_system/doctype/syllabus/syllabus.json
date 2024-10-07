@@ -1,7 +1,8 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-10-07 09:10:46.468896",
+ "autoname": "field:name1",
+ "creation": "2024-10-07 13:52:48.999476",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -11,15 +12,17 @@
   {
    "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "Name"
+   "label": "Name",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 09:11:08.846067",
+ "modified": "2024-10-07 13:53:52.633742",
  "modified_by": "Administrator",
  "module": "School Management System",
- "name": "Name Of Classes",
+ "name": "Syllabus",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

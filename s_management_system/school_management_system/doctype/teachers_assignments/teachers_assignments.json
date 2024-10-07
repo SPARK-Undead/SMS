@@ -1,13 +1,13 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:TA{YYYY}-{#}",
  "creation": "2024-10-07 07:12:41.120547",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "section_break_cuhy",
   "teacher_name",
-  "subjects",
   "class_assigned",
   "contact_details",
   "amended_from"
@@ -23,15 +23,10 @@
    "label": "Teacher Name"
   },
   {
-   "fieldname": "subjects",
-   "fieldtype": "Select",
-   "label": "Subjects ",
-   "options": "\nTest1\nTest2\nTest3\nTest4\nTest5\nTest6"
-  },
-  {
    "fieldname": "class_assigned",
-   "fieldtype": "Data",
-   "label": "Class Assigned"
+   "fieldtype": "Table",
+   "label": "Work Schedule",
+   "options": "Teachers Work Schdule"
   },
   {
    "fieldname": "contact_details",
@@ -43,7 +38,7 @@
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "Teachers",
+   "options": "Teachers Assignments",
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
@@ -52,10 +47,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-07 07:52:51.296863",
+ "modified": "2024-10-07 14:27:24.260550",
  "modified_by": "Administrator",
  "module": "School Management System",
- "name": "Teachers",
+ "name": "Teachers Assignments",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

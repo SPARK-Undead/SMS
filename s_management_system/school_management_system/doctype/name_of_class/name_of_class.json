@@ -1,41 +1,28 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:ATD{YYYY}-{#}",
- "creation": "2024-10-07 10:22:17.114326",
+ "autoname": "field:name1",
+ "creation": "2024-10-07 09:10:46.468896",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "student_id",
-  "date",
-  "status"
+  "name1"
  ],
  "fields": [
   {
-   "fieldname": "student_id",
-   "fieldtype": "Link",
-   "label": "Student ID",
-   "options": "Student"
-  },
-  {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "label": "Date"
-  },
-  {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "\nPresent\nAbssent"
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 13:46:53.395212",
+ "modified": "2024-10-07 14:06:34.382913",
  "modified_by": "Administrator",
  "module": "School Management System",
- "name": "Attendance",
- "naming_rule": "Expression",
+ "name": "Name Of Class",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

@@ -38,12 +38,12 @@
    "fieldname": "teacher_id",
    "fieldtype": "Link",
    "label": "Teacher ID",
-   "options": "Teachers"
+   "options": "Teachers Assignments"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 09:47:07.759026",
+ "modified": "2024-10-07 14:00:49.419192",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Subjects",

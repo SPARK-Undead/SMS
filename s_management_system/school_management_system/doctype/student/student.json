@@ -7,6 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "student_information_section",
+  "attach_image",
   "name1",
   "age",
   "class",
@@ -35,7 +36,7 @@
    "fieldname": "class",
    "fieldtype": "Link",
    "label": "Class",
-   "options": "Class"
+   "options": "Name Of Class"
   },
   {
    "fieldname": "column_break_vbho",
@@ -55,6 +56,11 @@
    "fieldname": "enrolment_date",
    "fieldtype": "Date",
    "label": "Enrolment Date"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Profile Picture"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -70,9 +76,13 @@
   {
    "link_doctype": "Fees",
    "link_fieldname": "student_id"
+  },
+  {
+   "link_doctype": "Classes",
+   "link_fieldname": "student_id"
   }
  ],
- "modified": "2024-10-07 11:09:54.138071",
+ "modified": "2024-10-07 14:56:24.840361",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Student",
