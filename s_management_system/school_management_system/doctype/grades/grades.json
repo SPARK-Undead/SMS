@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:GR{YYYY}-{#}",
  "creation": "2024-10-07 10:38:34.158323",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -8,6 +9,7 @@
   "student_id",
   "academic_performance",
   "total_marks",
+  "percentage",
   "final_grade"
  ],
  "fields": [
@@ -26,21 +28,28 @@
   },
   {
    "fieldname": "total_marks",
-   "fieldtype": "Data",
+   "fieldtype": "Float",
    "label": "Total Marks"
   },
   {
    "fieldname": "final_grade",
    "fieldtype": "Data",
    "label": "Final Grade"
+  },
+  {
+   "default": "%",
+   "fieldname": "percentage",
+   "fieldtype": "Data",
+   "label": "Percentage"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 10:56:23.937624",
+ "modified": "2024-10-07 12:41:27.093365",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Grades",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
