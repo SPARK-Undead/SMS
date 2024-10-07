@@ -1,26 +1,28 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-10-07 09:46:29.694901",
+ "autoname": "field:exam_name",
+ "creation": "2024-10-07 10:36:43.466354",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "subject_name"
+  "exam_name"
  ],
  "fields": [
   {
-   "fieldname": "subject_name",
+   "fieldname": "exam_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Subject Name"
+   "label": "Exam Name",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 10:33:25.705418",
+ "modified": "2024-10-07 10:37:39.989126",
  "modified_by": "Administrator",
  "module": "School Management System",
- "name": "Name Of Subjects",
+ "name": "Exam",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

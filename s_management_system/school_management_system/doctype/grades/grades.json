@@ -1,39 +1,46 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-10-07 10:22:17.114326",
+ "creation": "2024-10-07 10:38:34.158323",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "student_id",
-  "date",
-  "status"
+  "academic_performance",
+  "total_marks",
+  "final_grade"
  ],
  "fields": [
   {
    "fieldname": "student_id",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Student ID",
    "options": "Student"
   },
   {
-   "fieldname": "date",
-   "fieldtype": "Date",
-   "label": "Date"
+   "fieldname": "academic_performance",
+   "fieldtype": "Table",
+   "label": "Academic Performance",
+   "options": "Academic Performance"
   },
   {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "\nPresent\nAbssent"
+   "fieldname": "total_marks",
+   "fieldtype": "Data",
+   "label": "Total Marks"
+  },
+  {
+   "fieldname": "final_grade",
+   "fieldtype": "Data",
+   "label": "Final Grade"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 10:54:02.028641",
+ "modified": "2024-10-07 10:56:23.937624",
  "modified_by": "Administrator",
  "module": "School Management System",
- "name": "Attendance",
+ "name": "Grades",
  "owner": "Administrator",
  "permissions": [
   {

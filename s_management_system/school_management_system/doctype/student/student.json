@@ -58,8 +58,17 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-10-07 09:52:28.638897",
+ "links": [
+  {
+   "link_doctype": "Grades",
+   "link_fieldname": "student_id"
+  },
+  {
+   "link_doctype": "Attendance",
+   "link_fieldname": "student_id"
+  }
+ ],
+ "modified": "2024-10-07 10:52:28.129587",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Student",
