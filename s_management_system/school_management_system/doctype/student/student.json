@@ -66,9 +66,13 @@
   {
    "link_doctype": "Attendance",
    "link_fieldname": "student_id"
+  },
+  {
+   "link_doctype": "Fees",
+   "link_fieldname": "student_id"
   }
  ],
- "modified": "2024-10-07 10:52:28.129587",
+ "modified": "2024-10-07 11:09:54.138071",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Student",
