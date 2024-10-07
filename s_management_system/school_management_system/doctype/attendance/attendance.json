@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-07 10:22:17.114326",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_id",
+  "date",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_id",
+   "fieldtype": "Link",
+   "label": "Student ID",
+   "options": "Student"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-07 10:23:55.057985",
+ "modified_by": "Administrator",
+ "module": "School Management System",
+ "name": "Attendance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
