@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:ST{YYYY}-{#}",
  "creation": "2024-10-07 06:40:45.229364",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -32,8 +33,9 @@
   },
   {
    "fieldname": "class",
-   "fieldtype": "Data",
-   "label": "Class"
+   "fieldtype": "Link",
+   "label": "Class",
+   "options": "Class"
   },
   {
    "fieldname": "column_break_vbho",
@@ -57,10 +59,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 07:52:26.679442",
+ "modified": "2024-10-07 09:52:28.638897",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Student",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
