@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:name1",
+ "autoname": "format:C{YYYY}-{#}",
  "creation": "2024-10-07 09:51:14.624947",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -18,11 +18,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 09:56:31.050367",
+ "modified": "2024-10-08 07:26:44.840330",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Class",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

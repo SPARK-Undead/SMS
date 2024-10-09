@@ -9,7 +9,8 @@
   "profile_photo",
   "teacher_full_name",
   "contact",
-  "address"
+  "address",
+  "class"
  ],
  "fields": [
   {
@@ -31,16 +32,26 @@
    "fieldname": "address",
    "fieldtype": "Small Text",
    "label": "Address"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Link",
+   "label": "Class",
+   "options": "Name Of Class"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [
   {
-   "link_doctype": "Teachers Academic Qualifications",
+   "link_doctype": "Teachers Schedule",
    "link_fieldname": "teacher_id"
+  },
+  {
+   "link_doctype": "Classes",
+   "link_fieldname": "teacher"
   }
  ],
- "modified": "2024-10-07 14:51:42.993135",
+ "modified": "2024-10-08 18:10:44.111731",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Teachers Details",

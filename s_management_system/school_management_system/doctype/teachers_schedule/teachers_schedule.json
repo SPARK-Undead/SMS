@@ -1,56 +1,47 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:CLS{YYYY}-{#}",
- "creation": "2024-10-07 09:12:04.322829",
+ "autoname": "format:TS{YYY}-{#}",
+ "creation": "2024-10-08 07:03:51.388399",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "class_name",
-  "teacher",
-  "teachers_name",
-  "students_list",
-  "schedule"
+  "schedele_section",
+  "teacher_id",
+  "name1",
+  "work_schedule"
  ],
  "fields": [
   {
-   "fetch_from": "class_id.name1",
-   "fieldname": "class_name",
-   "fieldtype": "Link",
-   "label": "Class Name",
-   "options": "Name Of Class"
+   "fieldname": "schedele_section",
+   "fieldtype": "Section Break",
+   "label": "Schedele"
   },
   {
-   "fieldname": "teacher",
+   "fieldname": "teacher_id",
    "fieldtype": "Link",
    "label": "Teacher ID",
    "options": "Teachers Details"
   },
   {
-   "fieldname": "schedule",
-   "fieldtype": "Table",
-   "label": "Schedule",
-   "options": "Schedule"
-  },
-  {
-   "fetch_from": "teacher.teacher_full_name",
-   "fieldname": "teachers_name",
+   "fetch_from": "teacher_id.teacher_full_name",
+   "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "Teacher's Name"
+   "label": "Name"
   },
   {
-   "fieldname": "students_list",
+   "fieldname": "work_schedule",
    "fieldtype": "Table",
-   "label": "Students List",
-   "options": "Student List"
+   "label": "Work Schedule",
+   "options": "Teachers Work Schdule"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-09 10:02:35.886769",
+ "modified": "2024-10-08 07:06:22.674422",
  "modified_by": "Administrator",
  "module": "School Management System",
- "name": "Classes",
+ "name": "Teachers Schedule",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

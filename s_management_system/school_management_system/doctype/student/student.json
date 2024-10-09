@@ -76,13 +76,9 @@
   {
    "link_doctype": "Fees",
    "link_fieldname": "student_id"
-  },
-  {
-   "link_doctype": "Classes",
-   "link_fieldname": "student_id"
   }
  ],
- "modified": "2024-10-07 14:56:24.840361",
+ "modified": "2024-10-08 07:45:58.951641",
  "modified_by": "Administrator",
  "module": "School Management System",
  "name": "Student",
